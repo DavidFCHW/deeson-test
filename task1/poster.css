@@ -1,7 +1,6 @@
 h1{
-    font-family: Arial, serif; /* TODO: Make sure I change the font*/
-    color: aliceblue; /* TODO: subject to change*/
-    /*TODO: figure out a way to make the font-size much larger.*/
+    font-family: Arial, serif; /* Ideal font would be: Identikal san serif bold*/
+    color: aliceblue;
     font-size: 57.5px;
 
 }
@@ -52,5 +51,3 @@ h3{
     margin-bottom: 4px;
     margin-right: 15px;
 }
-
-/*TODO: make the font bold*/

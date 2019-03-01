@@ -1,0 +1,19 @@
+h1{
+    font-family: Calibri;
+    text-align: center;
+}
+
+h2{
+    font-family: Calibri;
+    /*text-align: center;*/
+    text-align: center;
+    display: inline-block;
+}
+
+.clock{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}

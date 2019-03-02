@@ -17,3 +17,10 @@ h2{
 .buttons{
     text-align: center;
 }
+
+#laps{
+    padding-top: 15px;
+    margin: auto;
+    font-family: Calibri;
+
+}

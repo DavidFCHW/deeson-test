@@ -19,8 +19,42 @@ h2{
 }
 
 #laps{
-    padding-top: 15px;
+    margin-top: 15px;
+
     margin: auto;
     font-family: Calibri;
+    width: 20%;
+}
 
+th, td{
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:hover, tr:nth-child(even){
+    background-color: lightgray;
+    color: black;
+}
+
+
+button{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 20px;
+    background-color: lightgray;
+    /*border: none;*/
+    border: solid lightgray;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    border: solid lightgray;
+    background-color: white;
+    transition-duration: 0.25s;
+}
+
+button:active{
+    background-color: gray;
 }

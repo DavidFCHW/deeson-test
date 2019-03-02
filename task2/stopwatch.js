@@ -1,5 +1,4 @@
 $(() => {
-    // alert("Hi this is a test");
     let hrs = 0;
     let mins = 0;
     let seconds = 0;
@@ -67,12 +66,16 @@ $(() => {
     }
 
     $("#start").on('click', watch);
-    $("#pause").on('click', () => {
+    function pause(){
+        hrs = 0;
         clearInterval(stopMs);
         clearInterval(stopSec);
         clearInterval(stopMin);
-    });
+    }
+
+    $("#pause").on('click', pause);
     $("#reset").on('click', () => {
+        pause();
        $(".clock #hours").html("0" + 0 + ":");
        $(".clock #minutes").html("0" + 0 + ":");
        $(".clock #seconds").html("0" + 0 + ":");

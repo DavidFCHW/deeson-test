@@ -1,13 +1,15 @@
 h1{
-    font-family: Calibri;
+    font-family: "Helvetica";
     text-align: center;
+    font-size: 40px;
 }
 
 h2{
-    font-family: Calibri;
+    font-family: "Helvetica";
     /*text-align: center;*/
     text-align: center;
     display: inline-block;
+    font-size: 40px;
 }
 
 .clock{
@@ -20,15 +22,15 @@ h2{
 
 #laps{
     margin-top: 15px;
-
     margin: auto;
-    font-family: Calibri;
+    font-family: "Helvetica";
     width: 20%;
 }
 
 th, td{
     text-align: center;
     border-bottom: 1px solid #dddddd;
+    font-size: 20px;
 }
 
 tr:hover, tr:nth-child(even){

@@ -12,7 +12,6 @@ $(() => {
         sessKeys.push(parseInt(sessionStorage.key(k)));
     }
     sessKeys.sort();
-    console.log(sessKeys[1]);
     for(let i = 0; i < sessionStorage.length; i++){
         if(sessKeys[i] < 10) {
             $("#laps").append("<tr>" + "<td>" + sessKeys[i] + "</td>" + "<td>" + sessionStorage.getItem(sessKeys[i].toString()) + "</td>" + "</tr>");

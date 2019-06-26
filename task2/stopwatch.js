@@ -5,7 +5,7 @@ $(() => {
     let seconds = 0;
     let ms = 0;
 
-    $("#display").append("0" + hrs + ":" + "0" + mins + ":" + "0" + seconds + ":" + "0" + ms);
+    // $("#display").append("0" + hrs + ":" + "0" + mins + ":" + "0" + seconds + ":" + "0" + ms);
 
     let sessKeys = [];
     for(let k = 0; k < sessionStorage.length; k++){
